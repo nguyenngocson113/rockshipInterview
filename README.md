@@ -8,7 +8,7 @@ install package in client folder:
 ### `cd client`
 ### `yarn install`
 
-and 
+and from root 
 ### `yarn dev` 
 
 
