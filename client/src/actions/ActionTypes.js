@@ -1,0 +1,11 @@
+const SELECT_POST = 'SELECT_POST';
+const CREATE_POST = 'CREATE_POST';
+const EDIT_POST = 'EDIT_POST';
+const DELETE_POST = 'DELETE_POST';
+
+export {
+    SELECT_POST,
+    CREATE_POST,
+    EDIT_POST,
+    DELETE_POST
+}

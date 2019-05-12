@@ -1,0 +1,86 @@
+.List {
+    min-height: 100vh;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    box-shadow: 1px 2px 5px 0 rgba(85, 85, 85, 0.5);
+    padding: 0px 20px 0px;
+    display: grid;
+    position: relative;
+    .table {
+        padding: unset;
+        list-style-position: inside;
+        ul {
+            padding-left: unset;
+            margin: unset;
+            li {
+                color: #318ca0;
+                .item {
+                    display: inherit;
+                    width: 100%;
+                }
+            }
+            .row {
+                cursor: pointer;
+                padding: 10px;
+                font-family: Roboto;
+                font-size: 13px;
+                font-weight: normal;
+                font-style: normal;
+                font-stretch: normal;
+                line-height: 1.54;
+                &-name {
+                    width: 145px;
+                    letter-spacing: 0.4px;
+                    color: #0071ca;
+                };
+                &-description {
+                    padding-right: 20px;
+                    letter-spacing: 0.3px;
+                    color: #404040;
+                }
+                &-author {
+                    padding-right: 20px;
+                    letter-spacing: 0.3px;
+                    color: #404040;
+                }
+                &-even {
+                    background-color: #f7f7f7;
+                }
+            }
+        
+        }
+
+    }
+    .title {
+        // display: grid;
+        // grid-template-columns: 50% 50%;
+        border-bottom-style: ridge;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+        border-bottom-color: #DEDEDE;
+        li {
+            display: inline;
+            font-family: Roboto;
+            font-size: 11px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 1.27;
+            letter-spacing: 0.3px;
+            color: #7f7f7f;
+        }
+        .name {
+            text-align: left;
+            width: 145px;
+            height: 14px;
+        }
+        .license {
+            height: 14px;
+            text-align: right;
+            padding-right: 30px;
+        }
+    }
+}
